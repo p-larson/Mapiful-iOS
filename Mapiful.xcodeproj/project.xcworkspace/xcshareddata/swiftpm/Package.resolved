@@ -11,12 +11,48 @@
         }
       },
       {
+        "package": "Haptica",
+        "repositoryURL": "https://github.com/efremidze/Haptica.git",
+        "state": {
+          "branch": null,
+          "revision": "4084702c85102c2d17d58e42ec5a750094944864",
+          "version": "3.0.2"
+        }
+      },
+      {
+        "package": "Macaw",
+        "repositoryURL": "https://github.com/exyte/Macaw",
+        "state": {
+          "branch": null,
+          "revision": "7cb4f5876423435e1a41628417230accc37284c6",
+          "version": "0.9.7"
+        }
+      },
+      {
+        "package": "StatefulTabView",
+        "repositoryURL": "https://github.com/p-larson/StatefulTabView",
+        "state": {
+          "branch": "master",
+          "revision": "3d0bae7aede3146235e899acee1be16b93f2a627",
+          "version": null
+        }
+      },
+      {
+        "package": "StepperView",
+        "repositoryURL": "https://github.com/badrinathvm/StepperView",
+        "state": {
+          "branch": null,
+          "revision": "80a747a3a10422347ddf5c672b4cc515b9bb48ed",
+          "version": "1.5.5"
+        }
+      },
+      {
         "package": "swift-case-paths",
         "repositoryURL": "https://github.com/pointfreeco/swift-case-paths",
         "state": {
           "branch": null,
-          "revision": "ed1838ab4fa5d47db8aa640736dd5b7672548873",
-          "version": "0.1.2"
+          "revision": "1aa1bf7c4069d9ba2f7edd36dbfc96ff1c58cbff",
+          "version": "0.1.3"
         }
       },
       {
@@ -24,8 +60,44 @@
         "repositoryURL": "https://github.com/pointfreeco/swift-composable-architecture.git",
         "state": {
           "branch": "main",
-          "revision": "b692a6deaf8210da25385c9ae073f4ccbf2309f8",
+          "revision": "0fb6c9bfc306e39dc750786edf28a4a77e67749c",
           "version": null
+        }
+      },
+      {
+        "package": "Grid",
+        "repositoryURL": "https://github.com/spacenation/swiftui-grid",
+        "state": {
+          "branch": null,
+          "revision": "623f995c6ee0e5a5ed0e104d142daeae67b0ec92",
+          "version": "1.1.0"
+        }
+      },
+      {
+        "package": "SwiftUIPager",
+        "repositoryURL": "https://github.com/fermoya/SwiftUIPager.git",
+        "state": {
+          "branch": null,
+          "revision": "41d6273d239a5c5a11db68292915e99c6473058e",
+          "version": "2.0.0"
+        }
+      },
+      {
+        "package": "SWXMLHash",
+        "repositoryURL": "https://github.com/drmohundro/SWXMLHash",
+        "state": {
+          "branch": null,
+          "revision": "9183170d20857753d4f331b0ca63f73c60764bf3",
+          "version": "5.0.2"
+        }
+      },
+      {
+        "package": "URLImage",
+        "repositoryURL": "https://github.com/dmytro-anokhin/url-image",
+        "state": {
+          "branch": null,
+          "revision": "c1a906515b0a440927b96204b778058871b22f23",
+          "version": "2.2.3"
         }
       }
     ]
