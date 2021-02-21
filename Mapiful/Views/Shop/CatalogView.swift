@@ -62,7 +62,7 @@ struct CatalogView: View {
     // Initialize a new Catalog View
     init() {
         self._parallaxOffset = State<CGFloat>(initialValue: 0)
-        self._selectionOffset = State<CGFloat>(initialValue: 3)
+        self._selectionOffset = State<CGFloat>(initialValue: 0)
         self._scrollOffset = State<CGFloat>(initialValue: 0)
         self._partitions = State<[CGFloat]>(initialValue: (products.map {_ in 0}) )
     }
@@ -116,6 +116,7 @@ struct CatalogView: View {
                         )
                         .animation(pageAnimation)
                 )
+                .grayscale(1/3)
                 .id(selectedIndex)
                 // parallax scroll
                 .offset(x: -padding)

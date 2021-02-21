@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-import StatefulTabView
 
 struct RootView: View {
     let iconSize = CGSize(width: 24, height: 24)
@@ -14,45 +13,12 @@ struct RootView: View {
     @State private var selectedIndex = 0
     
     var body: some View {
-        NavigationView {
-            StatefulTabView.init(selectedIndex: $selectedIndex) {
-                Tab(
-                    title: "Shop",
-                    image: UIImage(named: "shop")?.resize(targetSize: iconSize)
-                ) {
-                    CatalogView()
+        TabView(selection: $selectedIndex) {
+            CatalogView()
+                .tabItem {
+                    Label("Store", image: "shop")
                 }
-                
-                Tab(
-                    title: "Explore",
-                    image: UIImage(named: "search")?.resize(targetSize: iconSize)
-                ) {
-                    CatalogView()
-                }
-                
-                Tab(
-                    title: "Saved",
-                    image: UIImage(named: "bookmarks")?.resize(targetSize: iconSize)
-                ) {
-                    CatalogView()
-                }
-                
-                Tab(
-                    title: "Profile",
-                    image: UIImage(named: "person")?.resize(targetSize: iconSize)
-                ) {
-                    CatalogView()
-                }
-                
-                Tab(
-                    title: "Cart",
-                    systemImageName: "cart"
-                ) {
-                    CatalogView()
-                }
-            }
-            .barTintColor(UIColor(Color.label))
-            .unselectedItemTintColor(UIColor(Color.secondary))
+            AccountView()
         }
     }
 }

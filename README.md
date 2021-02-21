@@ -1,1 +1,3 @@
-# View Guideline
+# Mapiful iOS
+
+Prototype Stage
