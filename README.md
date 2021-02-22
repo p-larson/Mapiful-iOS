@@ -1,3 +1,7 @@
 # Mapiful iOS
 
-Prototype Stage
+## View Structure
+
+Root
+    Catalog
+    

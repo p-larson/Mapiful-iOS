@@ -15,6 +15,7 @@
 		D03A733F25DD8F14000146A7 /* FormatOptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03A733E25DD8F14000146A7 /* FormatOptionView.swift */; };
 		D03A734725DD9222000146A7 /* ClassicEditorHeaderSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03A734625DD9222000146A7 /* ClassicEditorHeaderSection.swift */; };
 		D03A734E25DDA506000146A7 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03A734D25DDA506000146A7 /* RootView.swift */; };
+		D042A2C425E33DA4006CDA04 /* ProductCatagoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D042A2C325E33DA4006CDA04 /* ProductCatagoryViewModel.swift */; };
 		D051A57A25DDAFEF00602E05 /* Scroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = D051A57925DDAFEF00602E05 /* Scroller.swift */; };
 		D051A57D25DDB15900602E05 /* ClassicEditorLocationSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D051A57C25DDB15900602E05 /* ClassicEditorLocationSection.swift */; };
 		D051A58225DDB1AE00602E05 /* ClassicEditorFormatSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D051A58125DDB1AE00602E05 /* ClassicEditorFormatSection.swift */; };
@@ -58,6 +59,7 @@
 		D03A733E25DD8F14000146A7 /* FormatOptionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormatOptionView.swift; sourceTree = "<group>"; };
 		D03A734625DD9222000146A7 /* ClassicEditorHeaderSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassicEditorHeaderSection.swift; sourceTree = "<group>"; };
 		D03A734D25DDA506000146A7 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		D042A2C325E33DA4006CDA04 /* ProductCatagoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCatagoryViewModel.swift; sourceTree = "<group>"; };
 		D051A57925DDAFEF00602E05 /* Scroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scroller.swift; sourceTree = "<group>"; };
 		D051A57C25DDB15900602E05 /* ClassicEditorLocationSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassicEditorLocationSection.swift; sourceTree = "<group>"; };
 		D051A58125DDB1AE00602E05 /* ClassicEditorFormatSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassicEditorFormatSection.swift; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 		D03A733825DD8D9A000146A7 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				D073EEC325D4C662008E0133 /* ActionButton.swift */,
 				D03A733925DD8DAD000146A7 /* PalleteOptionView.swift */,
 				D063A2B625DAC8C70009020E /* ClassicProductView.swift */,
 				D051A59625DDBB9600602E05 /* BookmarkDesignView.swift */,
@@ -215,8 +218,8 @@
 				D07FAE1225DDD4B600F7BE3D /* Assets.xcassets */,
 				D03A733525DC8A0A000146A7 /* Conventions.md */,
 				D03A734D25DDA506000146A7 /* RootView.swift */,
-				D057CF0925DEDBFC0028DDD2 /* Profile */,
 				D06524D425C649E300E84471 /* Shop */,
+				D057CF0925DEDBFC0028DDD2 /* Profile */,
 				D062876525C0F8E2007C40C7 /* Core */,
 			);
 			path = Views;
@@ -238,7 +241,6 @@
 				D073EEC625D4E0A3008E0133 /* View+.swift */,
 				D051A57925DDAFEF00602E05 /* Scroller.swift */,
 				D03A731C25DB0859000146A7 /* TextField+.swift */,
-				D073EEC325D4C662008E0133 /* ActionButton.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -266,6 +268,7 @@
 			isa = PBXGroup;
 			children = (
 				D0D7526E25D0955900AC24E4 /* CatalogView.swift */,
+				D042A2C325E33DA4006CDA04 /* ProductCatagoryViewModel.swift */,
 				D063A29C25DAC1D50009020E /* Classic Mapiful */,
 			);
 			path = Shop;
@@ -379,6 +382,7 @@
 				D062877225C0F992007C40C7 /* AppCore.swift in Sources */,
 				D051A58D25DDB22300602E05 /* ClassicEditorSizeSection.swift in Sources */,
 				D057CF1125DF3A6C0028DDD2 /* AccountActionSection.swift in Sources */,
+				D042A2C425E33DA4006CDA04 /* ProductCatagoryViewModel.swift in Sources */,
 				D03A734E25DDA506000146A7 /* RootView.swift in Sources */,
 				D063A29E25DAC1E40009020E /* ClassicEditorView.swift in Sources */,
 				D051A57A25DDAFEF00602E05 /* Scroller.swift in Sources */,

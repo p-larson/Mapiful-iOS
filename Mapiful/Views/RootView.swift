@@ -8,25 +8,20 @@
 import SwiftUI
 
 struct RootView: View {
-    let iconSize = CGSize(width: 24, height: 24)
     
-    @State private var selectedIndex = 0
+    @State private var tab = 0
     
     var body: some View {
-        TabView(selection: $selectedIndex) {
+        TabView(selection: $tab) {
             CatalogView()
                 .tabItem {
-                    Label("Store", image: "shop")
+                    Image(systemName: "bag")
+                    Text("Shop")
                 }
             AccountView()
-        }
-    }
-}
-
-fileprivate extension UIImage {
-    func resize(targetSize: CGSize) -> UIImage {
-        return UIGraphicsImageRenderer(size:targetSize).image { _ in
-            self.draw(in: CGRect(origin: .zero, size: targetSize))
+                .tabItem {
+                    Image(systemName: "person")
+                }
         }
     }
 }

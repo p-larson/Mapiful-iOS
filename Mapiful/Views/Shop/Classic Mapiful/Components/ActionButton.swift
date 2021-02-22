@@ -9,7 +9,7 @@
 
 import SwiftUI
 
-struct ActionButton: View {
+public struct ActionButton: View {
     let icon: Image?
     let label: String
     let blinky: Bool
@@ -35,7 +35,7 @@ struct ActionButton: View {
         self.blinky = blinky
     }
     
-    var body: some View {
+    public var body: some View {
         ZStack(alignment: .center) {
             // Outline
             Capsule(style: .circular)

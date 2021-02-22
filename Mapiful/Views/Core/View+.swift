@@ -18,10 +18,15 @@ extension View {
         self
             .frame(maxWidth: .infinity, alignment: .leading)
     }
-}
-
-extension View {
-    func outline() -> some View {
-        self.overlay(Rectangle().stroke(Color.red, lineWidth: 1.0))
+    
+    func geometry(do: @escaping (CGRect) -> ()) -> some View {
+        self.background(
+            GeometryReader { reader -> Color in
+                DispatchQueue.main.async {
+                    `do`(reader.frame(in: .global))
+                }
+                return Color.clear
+            }
+        )
     }
 }
